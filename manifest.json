@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "Iman Guard",
+  "version": "1.0",
+  "permissions": [
+    "declarativeNetRequest",
+    "declarativeNetRequestFeedback",
+    "storage",
+    "history"
+  ],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["style.css"],
+      "run_at": "document_start"
+    }
+  ],
+  "declarative_net_request": {
+    "rule_resources": [{
+      "id": "ruleset_1",
+      "enabled": true,
+      "path": "rules.json"
+    }]
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["blocked.html", "blocked.js", "reminder.mp3"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

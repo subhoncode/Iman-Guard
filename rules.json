@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": { "type": "redirect", "redirect": { "extensionPath": "/blocked.html" } },
+    "condition": { "urlFilter": "*porn*", "resourceTypes": ["main_frame", "sub_frame"] }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": { "type": "redirect", "redirect": { "extensionPath": "/blocked.html" } },
+    "condition": { "urlFilter": "*sex*", "resourceTypes": ["main_frame", "sub_frame"] }
+  },
+  {
+    "id": 3,
+    "priority": 1,
+    "action": { "type": "redirect", "redirect": { "extensionPath": "/blocked.html" } },
+    "condition": { "urlFilter": "*cuck*", "resourceTypes": ["main_frame", "sub_frame"] }
+  },
+  {
+    "id": 4,
+    "priority": 1,
+    "action": { "type": "redirect", "redirect": { "extensionPath": "/blocked.html" } },
+    "condition": { "urlFilter": "*fetish*", "resourceTypes": ["main_frame", "sub_frame"] }
+  },
+  {
+    "id": 5,
+    "priority": 1,
+    "action": { "type": "redirect", "redirect": { "extensionPath": "/blocked.html" } },
+    "condition": { "urlFilter": "*feet*", "resourceTypes": ["main_frame", "sub_frame"] }
+  },
+  {
+    "id": 6,
+    "priority": 1,
+    "action": { "type": "redirect", "redirect": { "extensionPath": "/blocked.html" } },
+    "condition": { "urlFilter": "*foot*", "resourceTypes": ["main_frame", "sub_frame"] }
+  },
+  {
+    "id": 7,
+    "priority": 1,
+    "action": { "type": "redirect", "redirect": { "extensionPath": "/blocked.html" } },
+    "condition": { "urlFilter": "*wife*", "resourceTypes": ["main_frame", "sub_frame"] }
+  },
+  {
+    "id": 8,
+    "priority": 1,
+    "action": { "type": "redirect", "redirect": { "extensionPath": "/blocked.html" } },
+    "condition": { "urlFilter": "*dominat*", "resourceTypes": ["main_frame", "sub_frame"] }
+  },
+  {
+    "id": 9,
+    "priority": 1,
+    "action": { "type": "redirect", "redirect": { "extensionPath": "/blocked.html" } },
+    "condition": { "urlFilter": "*submiss*", "resourceTypes": ["main_frame", "sub_frame"] }
+  },
+  {
+    "id": 10,
+    "priority": 1,
+    "action": { "type": "redirect", "redirect": { "extensionPath": "/blocked.html" } },
+    "condition": { "urlFilter": "*bdsm*", "resourceTypes": ["main_frame", "sub_frame"] }
+  },
+  {
+    "id": 11,
+    "priority": 1,
+    "action": { "type": "redirect", "redirect": { "extensionPath": "/blocked.html" } },
+    "condition": { "urlFilter": "*erotica*", "resourceTypes": ["main_frame", "sub_frame"] }
+  },
+  {
+    "id": 12,
+    "priority": 1,
+    "action": { "type": "redirect", "redirect": { "extensionPath": "/blocked.html" } },
+    "condition": { "urlFilter": "*%D0%BF%D0%BE%D1%80%D0%BD%D0%BE*", "resourceTypes": ["main_frame", "sub_frame"] } 
+  },
+  {
+    "id": 13,
+    "priority": 1,
+    "action": { "type": "redirect", "redirect": { "extensionPath": "/blocked.html" } },
+    "condition": { "urlFilter": "*%D0%BA%D1%83%D0%BA%D0%BE%D0%BB%D0%B4*", "resourceTypes": ["main_frame", "sub_frame"] }
+  },
+  {
+    "id": 14,
+    "priority": 1,
+    "action": { "type": "redirect", "redirect": { "extensionPath": "/blocked.html" } },
+    "condition": { "urlFilter": "*%D1%84%D1%83%D1%82%D1%84%D0%B5%D1%82%D0%B8%D1%88*", "resourceTypes": ["main_frame", "sub_frame"] }
+  },
+  {
+    "id": 15,
+    "priority": 1,
+    "action": { "type": "redirect", "redirect": { "extensionPath": "/blocked.html" } },
+    "condition": { "urlFilter": "*%D0%B4%D0%BE%D0%BC%D0%B8%D0%BD%D0%B0%D1%86*", "resourceTypes": ["main_frame", "sub_frame"] }
+  },
+  {
+    "id": 16,
+    "priority": 1,
+    "action": { "type": "redirect", "redirect": { "extensionPath": "/blocked.html" } },
+    "condition": { "urlFilter": "*%D1%83%D0%BD%D0%B8%D0%B6%D0%B5%D0%BD*", "resourceTypes": ["main_frame", "sub_frame"] }
+  },
+  {
+    "id": 17,
+    "priority": 1,
+    "action": { "type": "redirect", "redirect": { "extensionPath": "/blocked.html" } },
+    "condition": { "urlFilter": "*%D0%BF%D0%BE%D0%B4%D1%87%D0%B8%D0%BD%D0%B5%D0%BD*", "resourceTypes": ["main_frame", "sub_frame"] }
+  },
+  {
+    "id": 18,
+    "priority": 1,
+    "action": { "type": "redirect", "redirect": { "extensionPath": "/blocked.html" } },
+    "condition": { "urlFilter": "*%D1%81%D0%B5%D0%BA%D1%81*", "resourceTypes": ["main_frame", "sub_frame"] }
+  },
+  {
+    "id": 19,
+    "priority": 1,
+    "action": { "type": "redirect", "redirect": { "extensionPath": "/blocked.html" } },
+    "condition": { "urlFilter": "*gay*", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 20,
+    "priority": 1,
+    "action": { "type": "redirect", "redirect": { "extensionPath": "/blocked.html" } },
+    "condition": { "urlFilter": "*lesbian*", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 21,
+    "priority": 1,
+    "action": { "type": "redirect", "redirect": { "extensionPath": "/blocked.html" } },
+    "condition": { "urlFilter": "*xxx*", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 22,
+    "priority": 1,
+    "action": { "type": "redirect", "redirect": { "extensionPath": "/blocked.html" } },
+    "condition": { "urlFilter": "*%D0%BF%D0%B8%D0%B4%D0%BE%D1%80*", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 23,
+    "priority": 1,
+    "action": { "type": "redirect", "redirect": { "extensionPath": "/blocked.html" } },
+    "condition": { "urlFilter": "*%D1%80%D0%BE%D0%B3%D0%BE%D0%BD%D0%BE%D1%81*", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 24,
+    "priority": 1,
+    "action": { "type": "redirect", "redirect": { "extensionPath": "/blocked.html" } },
+    "condition": { "urlFilter": "*%D0%BD%D0%BE%D0%B6%D0%BA%D0%B8*", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 25,
+    "priority": 1,
+    "action": { "type": "redirect", "redirect": { "extensionPath": "/blocked.html" } },
+    "condition": { "urlFilter": "*%D0%B5%D0%B1%D0%BB%D1%8F*", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 26,
+    "priority": 1,
+    "action": { "type": "redirect", "redirect": { "extensionPath": "/blocked.html" } },
+    "condition": { "urlFilter": "*%D0%B5%D0%B1%D1%8B%D1%80%D1%8C*", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 27,
+    "priority": 1,
+    "action": { "type": "redirect", "redirect": { "extensionPath": "/blocked.html" } },
+    "condition": { "urlFilter": "*girl*", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 28,
+    "priority": 1,
+    "action": { "type": "redirect", "redirect": { "extensionPath": "/blocked.html" } },
+    "condition": { "urlFilter": "*woman*", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 29,
+    "priority": 1,
+    "action": { "type": "redirect", "redirect": { "extensionPath": "/blocked.html" } },
+    "condition": { "urlFilter": "*%D0%B4%D0%B5%D0%B2%D1%83%D1%88%D0%BA*", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 30,
+    "priority": 1,
+    "action": { "type": "redirect", "redirect": { "extensionPath": "/blocked.html" } },
+    "condition": { "urlFilter": "*%D0%B6%D0%B5%D0%BD%D1%89%D0%B8%D0%BD*", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 31,
+    "priority": 1,
+    "action": { "type": "redirect", "redirect": { "extensionPath": "/blocked.html" } },
+    "condition": { "urlFilter": "*%D0%BD%D0%BE%D0%B3%D0%B8*", "resourceTypes": ["main_frame"] }
+  },
+  {
+    "id": 32,
+    "priority": 1,
+    "action": { "type": "redirect", "redirect": { "extensionPath": "/blocked.html" } },
+    "condition": { "urlFilter": "*%D1%84%D0%B5%D1%82%D0%B8%D1%88*", "resourceTypes": ["main_frame"] }
+  }
+]

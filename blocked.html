@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Notification</title>
+<style>
+        body {
+            background: #000;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+        }
+        .container {
+            text-align: center;
+            padding: 40px;
+            border: 2px solid #c9a063;
+            border-radius: 20px;
+            background: #1a1a1a;
+            box-shadow: 0 0 50px rgba(201, 160, 99, 0.2);
+        }
+        h1 { color: #c9a063; font-size: 48px; margin-bottom: 10px; }
+        p { font-size: 20px; font-style: italic; color: #ddd; }
+        
+        .icon { 
+            font-size: 80px; 
+            margin-bottom: 20px; 
+            animation: pulse 3s infinite ease-in-out;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); filter: drop-shadow(0 0 0px rgba(201, 160, 99, 0)); }
+            50% { transform: scale(1.1); filter: drop-shadow(0 0 15px rgba(201, 160, 99, 0.5)); }
+            100% { transform: scale(1); filter: drop-shadow(0 0 0px rgba(201, 160, 99, 0)); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="icon">🌙</div>
+        <h1>Astaghfirullah</h1>
+        <p>"Does he not know that Allah sees ˹all˺?" (96:14)</p>
+    </div>
+
+    <audio id="alertAudio" autoplay>
+        <source src="reminder.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="blocked.js"></script>
+</body>
+</html>
