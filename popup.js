@@ -2,6 +2,8 @@ const input = document.getElementById('domainInput');
 const btn = document.getElementById('addRuleBtn');
 const list = document.getElementById('rulesList');
 
+const START_ID = 1000;
+
 async function refreshList() {
   list.innerHTML = '';
   const rules = await chrome.declarativeNetRequest.getDynamicRules();
@@ -22,7 +24,7 @@ async function refreshList() {
     b.onclick = async (e) => {
       const id = parseInt(e.target.getAttribute('data-id'));
       await chrome.declarativeNetRequest.updateDynamicRules({ removeRuleIds: [id] });
-      refreshList();
+      await refreshList();
     };
   });
 }
@@ -31,8 +33,11 @@ async function addDomain() {
   let domain = input.value.trim();
   if (!domain) return;
 
+  const storage = await chrome.storage.local.get(['lastRuleId']);
+  let lastId = storage.lastRuleId || START_ID;
+  const newId = lastId + 1;
+
   const encodedDomain = encodeURIComponent(domain);
-  const newId = Math.floor(Math.random() * 1000000) + 1;
 
   await chrome.declarativeNetRequest.updateDynamicRules({
     addRules: [{
@@ -43,9 +48,12 @@ async function addDomain() {
     }]
   });
 
+  await chrome.storage.local.set({ lastRuleId: newId });
+
   input.value = '';
-  refreshList();
+  await refreshList();
 }
+
 
 btn.onclick = addDomain;
 
@@ -54,5 +62,6 @@ input.onkeydown = (e) => {
     addDomain();
   }
 };
+
 
 refreshList();
